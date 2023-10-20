@@ -12,6 +12,79 @@ Date: 13.10.2023
 
 ![](/forecast_comparison.png)
 
+## Table of Content
+
+- [Summary](#summary)
+- [Working with the repo](#Working-with-the-repo)
+    - [Dependencies](#Dependencies)
+    - [Setup](#Setup)
+- [Reproducing results](#Reproducing-results)
+    - [Training code](#Training-code)
+    - [Evaluation code](#Evaluation-code)
+    - [Pretrained models](#Pretrained-models)
+- [Results](#Results)
+- [Project structure](-Project-structure)
+
+## Summary
+
+**Full text**: [include a link that points to the full text of your thesis]
+*Remark*: a thesis is about research. We believe in the [open science](https://en.wikipedia.org/wiki/Open_science) paradigm. Research results should be available to the public. Therefore, we expect dissertations to be shared publicly. Preferably, you publish your thesis via the [edoc-server of the Humboldt-Universität zu Berlin](https://edoc-info.hu-berlin.de/de/publizieren/andere). However, other sharing options, which ensure permanent availability, are also possible. <br> Exceptions from the default to share the full text of a thesis require the approval of the thesis supervisor.  
+
+## Working with the repo
+
+### Dependencies
+
+Python version 3.8.12 is required to run the project.
+
+### Setup
+
+1. Clone this repository
+
+2. Create an virtual environment and activate it
+```bash
+python -m venv thesis-env
+source thesis-env/bin/activate
+```
+
+3. Install requirements
+```bash
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+4. Download the necessary data
+The REFIT data files can be accesed from the following link:
+https://pureportal.strath.ac.uk/files/62090184/CLEAN_REFIT_081116.7z
+
+After downloading the data, please copy the csv files to ./data
+
+
+## Reproducing results
+
+Describe steps how to reproduce your results.
+
+Here are some examples:
+- [Paperswithcode](https://github.com/paperswithcode/releasing-research-code)
+- [ML Reproducibility Checklist](https://ai.facebook.com/blog/how-the-ai-community-can-get-serious-about-reproducibility/)
+- [Simple & clear Example from Paperswithcode](https://github.com/paperswithcode/releasing-research-code/blob/master/templates/README.md) (!)
+- [Example TensorFlow](https://github.com/NVlabs/selfsupervised-denoising)
+
+### Training code
+
+Does a repository contain a way to train/fit the model(s) described in the paper?
+
+### Evaluation code
+
+Does a repository contain a script to calculate the performance of the trained model(s) or run experiments on models?
+
+### Pretrained models
+
+Does a repository provide free access to pretrained model weights?
+
+## Results
+
+Does a repository contain a table/plot of main results and a script to reproduce those results?
+
 
 ## Project Structure
 ````
