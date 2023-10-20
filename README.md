@@ -14,7 +14,7 @@ Date: 13.10.2023
 
 
 ## Project Structure
-
+````
 ├── README.txt                                  # this readme file                                                
 ├── forecast_comparison.png                     # figure of forecast comparison         
 ├── 1_Creating_Recommendationy.ipynb            # Script 1
@@ -44,3 +44,5 @@ Date: 13.10.2023
 │        ├── recommendations_dict_test.pickle
 │        ├── recommendations_dict.pickle
 │        └── usage_dict.pickle
+````
+
