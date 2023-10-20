@@ -46,29 +46,29 @@ https://pureportal.strath.ac.uk/files/62090184/CLEAN_REFIT_081116.7z
 
 After downloading the data, please copy the csv files to ./data
 
-5. Unzip the pickle_files folder, which contains all the pickle files used in the scripts
+5. Unzip the pickle_files folder, which contains all the pickle files used in the notebooks
 This folder needs to be inside ./data 
 
 ## Reproducing results
 
-1. The first script 1_Creating_Recommendations.ipynb creates recommendations for each shiftable device in each household using the Recommendation Agent of the Smart Home Recommendation System, and creates simulated treatment data by introducing the recommendation acceptance algorithm which accepts recommendations by shifting usage loads.
-2. The second script 2_Building_the_DeepAR_Model.ipynb creates essential datasets for training the DeepAR forecasting model, establishes a hyperparameter tuning framework, and conducts model training
-3. The third script 3_Creating_and_Evaluating_Forecasts.ipynb introduces the evaluation metrics employed to assess the performance of the binary forecasting model and generates forecasts using the trained moded.
-4. The fourth and last script 4_Forecast_Analyses creates counterfactual load profiles by inserting device usage data to binary forecasts. Then it compares the treatment, control and counterfactual time series and conducts hypothesis tests to prove a significant decrease in costs after the implementation of the recommendation system.
+1. The first Notebook 1_Creating_Recommendations.ipynb creates recommendations for each shiftable device in each household using the Recommendation Agent of the Smart Home Recommendation System, and creates simulated treatment data by introducing the recommendation acceptance algorithm which accepts recommendations by shifting usage loads.
+2. The second Notebook 2_Building_the_DeepAR_Model.ipynb creates essential datasets for training the DeepAR forecasting model, establishes a hyperparameter tuning framework, and conducts model training
+3. The third Notebook 3_Creating_and_Evaluating_Forecasts.ipynb introduces the evaluation metrics employed to assess the performance of the binary forecasting model and generates forecasts using the trained moded.
+4. The fourth and last Notebook 4_Forecast_Analyses creates counterfactual load profiles by inserting device usage data to binary forecasts. Then it compares the treatment, control and counterfactual time series and conducts hypothesis tests to prove a significant decrease in costs after the implementation of the recommendation system.
 
 
 ## Project Structure
 ````
 ├── README.txt                                    # this readme file                                                
 ├── forecast_comparison.png                       # figure of forecast comparison         
-├── 1_Creating_Recommendations.ipynb              # Script 1
-├── 2_Building_the_DeepAR_Model.ipynb             # Script 2
-├── 3_Creating_and_Evaluating_Forecasts.ipynb     # Script 3     
-├── 4_Forecast_Analysis.ipynb                     # Script 4
-├── Thesis_Classes.py 					                  # All the classes created in the scripts
+├── 1_Creating_Recommendations.ipynb              # Notebook 1
+├── 2_Building_the_DeepAR_Model.ipynb             # Notebook 2
+├── 3_Creating_and_Evaluating_Forecasts.ipynb     # Notebook 3     
+├── 4_Forecast_Analysis.ipynb                     # Notebook 4
+├── Thesis_Classes.py 					                  # All the classes used in the Notebooks
 ├── agents.py                                     # agents of the recommendation system (Zharova et al., 2022)
 ├── helper_functions.py                           # helper functions of the recommendation system (Zharova et al., 2022)
-├── helper_functions_thesis.py                    # helper functions created in the scripts
+├── helper_functions_thesis.py                    # helper functions used in the Notebooks
 ├── requirements.txt
 ├── data                                                        
 │   ├── CLEAN_House1.csv                          # household data (Murray et al., 2017, household 1 to 10)     
@@ -76,7 +76,7 @@ This folder needs to be inside ./data
 │   ├── CLEAN_House10.csv                                           
 │   ├── REFIT_Readme.txt              
 │   ├── Day-ahead Prices_201501010000-201601010000.csv  # day-ahead prices provided by ENTSO-E, n.d.        
-│   └── pickle_files	                           # pickle files used in the script to speed up the run time
+│   └── pickle_files	                           # pickle files used in the Notebooks to speed up the run time
 │        ├── activity_dict.pickle
 │        ├── deepar_model.pickle
 │        ├── forecast_samples_rescaled.pickle
