@@ -40,6 +40,10 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
+Installing the required MXNet package, version 1.9.1, on a MacBook with an M1 chip processor can be challenging. However, this issue is not encountered when using an M2 chip or Intel-based Macs. While it is possible to build the package from source (as described in the MXNet documentation: https://mxnet.apache.org/versions/1.9.1/get_started/osx_setup.html), this process is somewhat unstable.
+
+In contrast, I faced no issues while installing all the necessary dependencies on a Linux system.
+
 4. Download the necessary data
 The REFIT data files can be accesed from the following link:
 https://pureportal.strath.ac.uk/files/62090184/CLEAN_REFIT_081116.7z
