@@ -47,6 +47,8 @@ In contrast, I faced no issues while installing all the necessary dependencies o
 4. Download the necessary data
 The REFIT data files can be accesed from the following link:
 https://pureportal.strath.ac.uk/files/62090184/CLEAN_REFIT_081116.7z
+Or you can go to https://pureportal.strath.ac.uk/en/datasets/refit-electrical-load-measurements-cleaned and download the data by clicking "CLEAN_REFIT_081116.7z".
+
 
 After downloading the data, please copy the csv files to ./data
 
