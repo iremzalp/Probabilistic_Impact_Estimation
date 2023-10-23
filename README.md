@@ -44,6 +44,8 @@ Installing the required MXNet package, version 1.9.1, on a MacBook with an M1 ch
 
 In contrast, I faced no issues while installing all the necessary dependencies on a Linux system.
 
+Although I did not have the opportunity to test it on a Microsoft system, there are no issues reported on the internet regarding MXNet installation for this platform.
+
 4. Download the necessary data
 The REFIT data files can be accesed from the following link:
 https://pureportal.strath.ac.uk/files/62090184/CLEAN_REFIT_081116.7z
